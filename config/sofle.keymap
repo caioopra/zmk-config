@@ -106,7 +106,7 @@
             bindings = <
 &bt BT_CLR   &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                          &trans     &trans    &kp LS(LC(LA(LEFT_ARROW)))  &kp LC(LS(LA(RIGHT_ARROW)))  &kp LC(LA(LEFT_ARROW))  &kp LA(LC(RIGHT_ARROW))
 &trans       &kp INS       &kp PSCRN     &kp K_CMENU   &trans        &trans                                &kp PG_UP  &kp HOME  &kp UP                      &kp END                      &kp PAGE_UP             &trans
-&kp RA(TAB)  &a_til        &kp LCTRL     &kp LSHFT     &trans        &trans                                &kp PG_DN  &kp LEFT  &kp DOWN                    &kp RIGHT                    &kp PAGE_DOWN           &kp BSPC
+&kp LA(TAB)  &a_til        &kp LCTRL     &kp LSHFT     &trans        &trans                                &kp PG_DN  &kp LEFT  &kp DOWN                    &kp RIGHT                    &kp PAGE_DOWN           &kp BSPC
 &trans       &kp K_UNDO    &kp K_CUT     &cedilha      &kp K_PASTE   &trans        &kp CAPSLOCK    &trans  &trans     &trans    &trans                      &trans                       &trans                  &trans
                            &trans        &trans        &trans        &trans        &trans          &trans  &trans     &trans    &trans                      &trans
             >;
