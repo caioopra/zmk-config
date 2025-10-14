@@ -42,11 +42,11 @@
             label = "A_TIL";
         };
 
-        nvim_replace_buffer: nvim_replace {
+        nvim_replace_buffer: nvim_replace_buffer {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp COLON &kp PERCENT &kp S &kp AT_SIGN &kp LC(R) &kp SLASH &kp AT_SIGN>;
-            label = "NVIM_REPLACE";
+            label = "NVIM_REPLACE_BUFFER";
         };
 
         nvim_replace: nvim_replace {
